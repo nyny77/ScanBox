@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<gameList exported_at="2025-05-28T18:07:22.707710">
+  <game>
+    <system>snes</system>
+    <game-name>Super Mario World</game-name>
+    <rom-path>./smw.sfc</rom-path>
+    <image-status>image présente</image-status>
+    <full-rom-path>/test/snes/smw.sfc</full-rom-path>
+    <gamelist-path>/test/snes/gamelist.xml</gamelist-path>
+  </game>
+  <game>
+    <system>nes</system>
+    <game-name>Contra</game-name>
+    <rom-path>./contra.nes</rom-path>
+    <image-status>balise absente</image-status>
+    <full-rom-path>/test/nes/contra.nes</full-rom-path>
+    <gamelist-path>/test/nes/gamelist.xml</gamelist-path>
+  </game>
+  <game>
+    <system>snes</system>
+    <game-name>Zelda ALTTP</game-name>
+    <rom-path>./zelda.sfc</rom-path>
+    <image-status>image manquante (vide)</image-status>
+    <full-rom-path>/test/snes/zelda.sfc</full-rom-path>
+    <gamelist-path>/test/snes/gamelist.xml</gamelist-path>
+  </game>
+  <game>
+    <system>megadrive</system>
+    <game-name>Sonic the Hedgehog</game-name>
+    <rom-path>./sonic.md</rom-path>
+    <image-status>image présente</image-status>
+    <full-rom-path>/test/megadrive/sonic.md</full-rom-path>
+    <gamelist-path>/test/megadrive/gamelist.xml</gamelist-path>
+  </game>
+</gameList>

@@ -1,0 +1,5 @@
+system,game_name,rom_path,image_status,full_rom_path,gamelist_path
+snes,Super Mario World,./smw.sfc,image présente,/test/snes/smw.sfc,/test/snes/gamelist.xml
+nes,Contra,./contra.nes,balise absente,/test/nes/contra.nes,/test/nes/gamelist.xml
+snes,Zelda ALTTP,./zelda.sfc,image manquante (vide),/test/snes/zelda.sfc,/test/snes/gamelist.xml
+megadrive,Sonic the Hedgehog,./sonic.md,image présente,/test/megadrive/sonic.md,/test/megadrive/gamelist.xml

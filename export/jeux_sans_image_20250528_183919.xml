@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<gameList exported_at="2025-05-28T18:39:19.964182">
+  <game>
+    <system>megadrive</system>
+    <game-name>Astebros</game-name>
+    <rom-path>Astebros (2023)(NeoFID Studios).bin</rom-path>
+    <image-status>balise image absente</image-status>
+    <full-rom-path>D:\recalbox\roms\megadrive\Astebros (2023)(NeoFID Studios).bin</full-rom-path>
+    <gamelist-path>D:/recalbox/roms\megadrive\gamelist.xml</gamelist-path>
+  </game>
+  <game>
+    <system>megadrive</system>
+    <game-name>Mega Man The Sequel Wars Episode Red v1_1</game-name>
+    <rom-path>Mega Man The Sequel Wars Episode Red v1_1.bin</rom-path>
+    <image-status>balise image absente</image-status>
+    <full-rom-path>D:\recalbox\roms\megadrive\Mega Man The Sequel Wars Episode Red v1_1.bin</full-rom-path>
+    <gamelist-path>D:/recalbox/roms\megadrive\gamelist.xml</gamelist-path>
+  </game>
+  <game>
+    <system>megadrive</system>
+    <game-name>Streets of Rage2_syndicate wars</game-name>
+    <rom-path>Streets of Rage2_syndicate wars.bin</rom-path>
+    <image-status>balise image absente</image-status>
+    <full-rom-path>D:\recalbox\roms\megadrive\Streets of Rage2_syndicate wars.bin</full-rom-path>
+    <gamelist-path>D:/recalbox/roms\megadrive\gamelist.xml</gamelist-path>
+  </game>
+  <game>
+    <system>megadrive</system>
+    <game-name>Life On Mars</game-name>
+    <rom-path>Life On Mars.smd</rom-path>
+    <image-status>balise image absente</image-status>
+    <full-rom-path>D:\recalbox\roms\megadrive\Life On Mars.smd</full-rom-path>
+    <gamelist-path>D:/recalbox/roms\megadrive\gamelist.xml</gamelist-path>
+  </game>
+  <game>
+    <system>megadrive</system>
+    <game-name>P-47 II MD TheFreedomStar</game-name>
+    <rom-path>P-47 II MD TheFreedomStar.BIN</rom-path>
+    <image-status>balise image absente</image-status>
+    <full-rom-path>D:\recalbox\roms\megadrive\P-47 II MD TheFreedomStar.BIN</full-rom-path>
+    <gamelist-path>D:/recalbox/roms\megadrive\gamelist.xml</gamelist-path>
+  </game>
+  <game>
+    <system>megadrive</system>
+    <game-name>Metal Dragon (World) (Aftermarket) (Unl)</game-name>
+    <rom-path>Metal Dragon (World) (Aftermarket) (Unl).md</rom-path>
+    <image-status>balise image absente</image-status>
+    <full-rom-path>D:\recalbox\roms\megadrive\Metal Dragon (World) (Aftermarket) (Unl).md</full-rom-path>
+    <gamelist-path>D:/recalbox/roms\megadrive\gamelist.xml</gamelist-path>
+  </game>
+  <game>
+    <system>megadrive</system>
+    <game-name>SOR2 Teenage_Mutant_Ninja_Turtles_Shredder's_Re_Revenge</game-name>
+    <rom-path>SOR2 Teenage_Mutant_Ninja_Turtles_Shredder's_Re_Revenge.md</rom-path>
+    <image-status>balise image absente</image-status>
+    <full-rom-path>D:\recalbox\roms\megadrive\SOR2 Teenage_Mutant_Ninja_Turtles_Shredder's_Re_Revenge.md</full-rom-path>
+    <gamelist-path>D:/recalbox/roms\megadrive\gamelist.xml</gamelist-path>
+  </game>
+  <game>
+    <system>megadrive</system>
+    <game-name>Task Force Harrier EX Arcade Colors (Hack) v1.01 fusaru</game-name>
+    <rom-path>Task Force Harrier EX Arcade Colors (Hack) v1.01 fusaru.md</rom-path>
+    <image-status>balise image absente</image-status>
+    <full-rom-path>D:\recalbox\roms\megadrive\Task Force Harrier EX Arcade Colors (Hack) v1.01 fusaru.md</full-rom-path>
+    <gamelist-path>D:/recalbox/roms\megadrive\gamelist.xml</gamelist-path>
+  </game>
+  <game>
+    <system>megadrive</system>
+    <game-name>James Pond 3</game-name>
+    <rom-path>James Pond 3 (USA, Europe).md</rom-path>
+    <image-status>balise image absente</image-status>
+    <full-rom-path>D:\recalbox\roms\megadrive\James Pond 3 (USA, Europe).md</full-rom-path>
+    <gamelist-path>D:/recalbox/roms\megadrive\gamelist.xml</gamelist-path>
+  </game>
+  <game>
+    <system>megadrive</system>
+    <game-name>Paperboy</game-name>
+    <rom-path>Paperboy (USA, Europe).md</rom-path>
+    <image-status>balise image absente</image-status>
+    <full-rom-path>D:\recalbox\roms\megadrive\Paperboy (USA, Europe).md</full-rom-path>
+    <gamelist-path>D:/recalbox/roms\megadrive\gamelist.xml</gamelist-path>
+  </game>
+</gameList>
