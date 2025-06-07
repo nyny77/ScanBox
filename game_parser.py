@@ -50,52 +50,20 @@ def find_gamelists_paths(root_folder):
     return gamelists
 
 def parse_gamelist(gamelist_path, system_name, system_roms_path, ignore_name_patterns=None, ignore_path_extensions=None):
-    added_rom_paths = set() # Set to track full_rom_paths of already added games
-    """
-    Analyse un fichier gamelist.xml spécifique pour un système donné.
-
-    # --- Filtrage automatique des jeux orphelins ---
-    # (Le code de filtrage sera ajouté lors de la construction de la liste des jeux, plus bas dans la fonction)
-
-    # --- Filtrage effectif des jeux orphelins ---
-    # --- Filtrage effectif des jeux orphelins ---
-    # INSÉRÉ DANS LA BOUCLE PRINCIPALE CI-DESSOUS
-
-    games = []
-    try:
-        tree = ET.parse(gamelist_path)
-        root = tree.getroot()
-    except Exception as e:
-        print(f"Erreur lors de l'analyse du gamelist.xml: {e}")
-        return games
-
-    for game_elem in root.findall('game'):
-        # Extraction des infos du jeu (adapté selon le code existant)
-        path_elem = game_elem.find('path')
-        if path_elem is None or not path_elem.text:
-            continue
-        rom_relative_path = path_elem.text
-        # Chemin absolu du fichier ROM
-        full_rom_path = os.path.join(system_roms_path, rom_relative_path.lstrip('./'))
-        if not os.path.exists(full_rom_path):
-            continue  # Ignore les jeux orphelins
-        # Construction du dictionnaire jeu (reprendre la logique existante)
-        game_dict = { 'rom_path': rom_relative_path, 'full_rom_path': full_rom_path }
-        # ... (ajouter ici les autres champs déjà extraits dans la version existante)
-        games.append(game_dict)
-    return games
-
+    """Analyse un fichier ``gamelist.xml`` pour un système donné.
 
     Args:
-        gamelist_path (str): Chemin absolu vers le fichier gamelist.xml.
-        system_name (str): Nom du système (ex: 'snes', 'nes').
-        system_roms_path (str): Chemin absolu vers le dossier des ROMs pour ce système 
-                                (ex: C:/Recalbox/roms/snes). Utilisé comme base pour 
-                                résoudre les chemins relatifs des ROMs et des images.
+        gamelist_path (str): Chemin absolu vers le fichier ``gamelist.xml``.
+        system_name (str): Nom du système (ex: ``snes``, ``nes``).
+        system_roms_path (str): Chemin absolu vers le dossier des ROMs pour ce système
+            (ex: ``C:/Recalbox/roms/snes``). Utilisé comme base pour résoudre les chemins
+            relatifs des ROMs et des images.
 
     Returns:
-        list: Une liste de dictionnaires, chaque dictionnaire représentant un jeu.
+        list: Une liste de dictionnaires représentant les jeux trouvés.
     """
+
+    added_rom_paths = set()  # Set to track full_rom_paths of already added games
     games = []
     if not os.path.exists(gamelist_path):
         print(f"Erreur: Fichier gamelist.xml non trouvé à {gamelist_path}")
