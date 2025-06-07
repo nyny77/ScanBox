@@ -1,0 +1,1501 @@
+2025-06-05 06:55:22,921 - INFO - main.py:326 - Logging configuré. Les logs DEBUG sont enregistrés dans c:\Users\atoda\CascadeProjects\RecalboxGameManager\scanbox.log
+2025-06-05 06:55:23,814 - DEBUG - main.py:162 - Tcl auto_path AVANT TOUTE MODIFICATION: {C:\Python313\tcl\tcl8.6} C:/Python313/tcl C:/lib C:/Python313/tcl/tk8.6 C:/Python313/tcl/tk8.6/ttk {[C:\Users\atoda\AppData\Roaming\Python\Python313\site-packages\ttkthemes/themes]} {[C:\Users\atoda\AppData\Roaming\Python\Python313\site-packages\ttkthemes/png]}
+2025-06-05 06:55:23,815 - DEBUG - main.py:163 - Tcl package names AVANT TOUTE MODIFICATION: http ttk::theme::classic ttk::theme::scidmint ttk::theme::scidblue ttk::theme::scid ttk::theme::ubuntu tcl::tommath TclOO ttk::theme::scidgreen ttk::theme::elegance ttk::theme::scidpink ttk::theme::breeze ttk::theme::equilux ttk::theme::black tcltest ttk::theme::default Ttk ttk::theme::arc ttk::theme::smog ttk::theme::radiance ttk::theme::plastik ttk::theme::itft1 ttk::theme::yaru msgcat ttk::theme::scidgrey ttk::theme::aquativo ttk::theme::scidpurple ttk::theme::adapta zlib ttk::theme::keramik Tcl ttk::theme::clam ttk::theme::winnative ttk::theme::winxpblue ttk::theme::kroc ttk::theme::clearlooks ttk::theme::vista platform ttk::theme::xpnative ttk::theme::blue tile ttk::theme::scidsand Tk ttk::theme::alt
+2025-06-05 06:55:23,858 - INFO - main.py:182 - Instance VLC et lecteur initialisés avec succès.
+2025-06-05 06:55:23,859 - INFO - main.py:332 - Configuration du logging déjà effectuée, skip.
+2025-06-05 06:55:24,294 - DEBUG - main.py:383 - Root folder not set or invalid. System combobox empty, analyze button disabled.
+2025-06-05 06:55:24,305 - INFO - main.py:1117 - Dernier dossier ROMs chargé: Z:/recalbox/roms
+2025-06-05 06:55:24,306 - DEBUG - main.py:368 - Filtering system combobox for root folder: Z:/recalbox/roms
+2025-06-05 06:55:24,424 - INFO - main.py:1138 - Dernier système sélectionné 'Nintendo Entertainment System (NES/Famicom)' restauré et appliqué.
+2025-06-05 06:55:24,425 - DEBUG - main.py:1033 - on_tab_changed: Onglet Image sélectionné.
+2025-06-05 06:55:24,425 - DEBUG - main.py:869 - display_game_image: No game_data or image_path. Displaying default image.
+2025-06-05 06:55:25,087 - DEBUG - main.py:1712 - apply_initial_vlc_audio_settings: Tentative de régler l'audio VLC sur non-sourdine et volume par défaut.
+2025-06-05 06:55:25,088 - INFO - main.py:1720 - apply_initial_vlc_audio_settings: État VLC après tentative - Sourdine: 0, Volume: 80
+2025-06-05 06:55:25,088 - DEBUG - main.py:1740 - apply_initial_vlc_audio_settings: L'état de l'application (self.video_muted) est cohérent avec l'état effectif de VLC.
+2025-06-05 06:55:26,673 - DEBUG - main.py:286 - Bouton Analyser désactivé. État général=False, système sélectionné='Nintendo Entertainment System (NES/Famicom)', systèmes disponibles? Oui.
+2025-06-05 06:55:26,673 - DEBUG - main.py:297 - Controls state set to: DISABLED
+2025-06-05 06:55:30,761 - DEBUG - game_parser.py:307 - Starting to process <folder> elements in Z:/recalbox/roms\nes\gamelist.xml
+2025-06-05 06:55:30,980 - DEBUG - main.py:869 - display_game_image: No game_data or image_path. Displaying default image.
+2025-06-05 06:55:31,784 - DEBUG - main.py:284 - Bouton Analyser activé car état général=True, système sélectionné='Nintendo Entertainment System (NES/Famicom)', systèmes disponibles.
+2025-06-05 06:55:31,784 - DEBUG - main.py:297 - Controls state set to: NORMAL
+2025-06-05 06:55:32,197 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 06:55:32,197 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 06:55:32,197 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 06:55:32,214 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 06:55:32,214 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 06:55:32,214 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 06:55:32,214 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\nes\media\images\1942 8c830287ba0cbf11127ee499ceff650d.png
+2025-06-05 06:55:32,297 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\nes\\media\\images\\1942 8c830287ba0cbf11127ee499ceff650d.png', 618, 618)
+2025-06-05 06:55:32,862 - DEBUG - main.py:1025 - on_tab_changed: Onglet Vidéo sélectionné.
+2025-06-05 06:55:35,512 - DEBUG - main.py:230 - on_mute_button_raw_click: Raw <Button-1> event detected on mute button.
+2025-06-05 06:55:35,608 - DEBUG - main.py:898 - toggle_video_mute: Mute button clicked.
+2025-06-05 06:55:35,608 - DEBUG - main.py:904 - toggle_video_mute: Player state: State.Playing
+2025-06-05 06:55:35,608 - DEBUG - main.py:912 - toggle_video_mute: Current VLC mute status (audio_get_mute): 0, self.video_muted (internal state): False
+2025-06-05 06:55:35,608 - DEBUG - main.py:921 - toggle_video_mute: Attempting to mute.
+2025-06-05 06:55:35,626 - INFO - main.py:925 - toggle_video_mute: Video muted. Button icon updated.
+2025-06-05 06:55:35,626 - DEBUG - main.py:929 - toggle_video_mute: New VLC mute status (audio_get_mute): 1, self.video_muted now: True
+2025-06-05 06:55:36,344 - DEBUG - main.py:230 - on_mute_button_raw_click: Raw <Button-1> event detected on mute button.
+2025-06-05 06:55:36,432 - DEBUG - main.py:898 - toggle_video_mute: Mute button clicked.
+2025-06-05 06:55:36,432 - DEBUG - main.py:904 - toggle_video_mute: Player state: State.Playing
+2025-06-05 06:55:36,432 - DEBUG - main.py:912 - toggle_video_mute: Current VLC mute status (audio_get_mute): 1, self.video_muted (internal state): True
+2025-06-05 06:55:36,432 - DEBUG - main.py:915 - toggle_video_mute: Attempting to unmute.
+2025-06-05 06:55:36,432 - INFO - main.py:919 - toggle_video_mute: Video unmuted. Button icon updated.
+2025-06-05 06:55:36,433 - DEBUG - main.py:929 - toggle_video_mute: New VLC mute status (audio_get_mute): 0, self.video_muted now: False
+2025-06-05 06:55:38,178 - INFO - main.py:1160 - WM_DELETE_WINDOW : Exécution de on_closing.
+2025-06-05 06:55:38,178 - INFO - main.py:1163 - Arrêt du lecteur VLC.
+2025-06-05 06:55:38,231 - INFO - main.py:1170 - Libération de l'instance VLC.
+2025-06-05 06:55:38,232 - INFO - main.py:1176 - Appel de self.destroy() pour fermer la fenêtre principale.
+2025-06-05 06:55:38,264 - INFO - main.py:1180 - on_closing terminé.
+2025-06-05 07:00:53,283 - INFO - main.py:326 - Logging configuré. Les logs DEBUG sont enregistrés dans C:\Users\atoda\CascadeProjects\RecalboxGameManager\scanbox.log
+2025-06-05 07:00:54,278 - DEBUG - main.py:162 - Tcl auto_path AVANT TOUTE MODIFICATION: {C:\Python313\tcl\tcl8.6} C:/Python313/tcl C:/lib C:/Python313/tcl/tk8.6 C:/Python313/tcl/tk8.6/ttk {[C:\Users\atoda\AppData\Roaming\Python\Python313\site-packages\ttkthemes/themes]} {[C:\Users\atoda\AppData\Roaming\Python\Python313\site-packages\ttkthemes/png]}
+2025-06-05 07:00:54,278 - DEBUG - main.py:163 - Tcl package names AVANT TOUTE MODIFICATION: http ttk::theme::classic ttk::theme::scidmint ttk::theme::scidblue ttk::theme::scid ttk::theme::ubuntu tcl::tommath TclOO ttk::theme::scidgreen ttk::theme::elegance ttk::theme::scidpink ttk::theme::breeze ttk::theme::equilux ttk::theme::black tcltest ttk::theme::default Ttk ttk::theme::arc ttk::theme::smog ttk::theme::radiance ttk::theme::plastik ttk::theme::itft1 ttk::theme::yaru msgcat ttk::theme::scidgrey ttk::theme::aquativo ttk::theme::scidpurple ttk::theme::adapta zlib ttk::theme::keramik Tcl ttk::theme::clam ttk::theme::winnative ttk::theme::winxpblue ttk::theme::kroc ttk::theme::clearlooks ttk::theme::vista platform ttk::theme::xpnative ttk::theme::blue tile ttk::theme::scidsand Tk ttk::theme::alt
+2025-06-05 07:00:54,325 - INFO - main.py:182 - Instance VLC et lecteur initialisés avec succès.
+2025-06-05 07:00:54,325 - INFO - main.py:332 - Configuration du logging déjà effectuée, skip.
+2025-06-05 07:00:54,903 - DEBUG - main.py:383 - Root folder not set or invalid. System combobox empty, analyze button disabled.
+2025-06-05 07:00:54,906 - INFO - main.py:1117 - Dernier dossier ROMs chargé: Z:/recalbox/roms
+2025-06-05 07:00:54,907 - DEBUG - main.py:368 - Filtering system combobox for root folder: Z:/recalbox/roms
+2025-06-05 07:00:55,038 - INFO - main.py:1138 - Dernier système sélectionné 'Nintendo Entertainment System (NES/Famicom)' restauré et appliqué.
+2025-06-05 07:00:55,039 - DEBUG - main.py:1033 - on_tab_changed: Onglet Image sélectionné.
+2025-06-05 07:00:55,039 - DEBUG - main.py:869 - display_game_image: No game_data or image_path. Displaying default image.
+2025-06-05 07:00:55,074 - DEBUG - main.py:1723 - Window centered using center_window method: 1920x1009+0+36
+2025-06-05 07:00:55,074 - DEBUG - main.py:1730 - Window centered on first map event and <Map> event unbound.
+2025-06-05 07:00:55,144 - DEBUG - main.py:1723 - Window centered using center_window method: 1920x1009+0+36
+2025-06-05 07:00:55,144 - DEBUG - main.py:1730 - Window centered on first map event and <Map> event unbound.
+2025-06-05 07:00:55,708 - DEBUG - main.py:1723 - Window centered using center_window method: 1920x1009+0+36
+2025-06-05 07:00:55,709 - DEBUG - main.py:1730 - Window centered on first map event and <Map> event unbound.
+2025-06-05 07:00:55,709 - DEBUG - main.py:1735 - apply_initial_vlc_audio_settings: Tentative de régler l'audio VLC sur non-sourdine et volume par défaut.
+2025-06-05 07:00:55,709 - INFO - main.py:1743 - apply_initial_vlc_audio_settings: État VLC après tentative - Sourdine: 0, Volume: 80
+2025-06-05 07:00:55,710 - DEBUG - main.py:1763 - apply_initial_vlc_audio_settings: L'état de l'application (self.video_muted) est cohérent avec l'état effectif de VLC.
+2025-06-05 07:03:31,000 - INFO - main.py:326 - Logging configuré. Les logs DEBUG sont enregistrés dans c:\Users\atoda\CascadeProjects\RecalboxGameManager\scanbox.log
+2025-06-05 07:03:31,967 - DEBUG - main.py:162 - Tcl auto_path AVANT TOUTE MODIFICATION: {C:\Python313\tcl\tcl8.6} C:/Python313/tcl C:/lib C:/Python313/tcl/tk8.6 C:/Python313/tcl/tk8.6/ttk {[C:\Users\atoda\AppData\Roaming\Python\Python313\site-packages\ttkthemes/themes]} {[C:\Users\atoda\AppData\Roaming\Python\Python313\site-packages\ttkthemes/png]}
+2025-06-05 07:03:31,967 - DEBUG - main.py:163 - Tcl package names AVANT TOUTE MODIFICATION: http ttk::theme::classic ttk::theme::scidmint ttk::theme::scidblue ttk::theme::scid ttk::theme::ubuntu tcl::tommath TclOO ttk::theme::scidgreen ttk::theme::elegance ttk::theme::scidpink ttk::theme::breeze ttk::theme::equilux ttk::theme::black tcltest ttk::theme::default Ttk ttk::theme::arc ttk::theme::smog ttk::theme::radiance ttk::theme::plastik ttk::theme::itft1 ttk::theme::yaru msgcat ttk::theme::scidgrey ttk::theme::aquativo ttk::theme::scidpurple ttk::theme::adapta zlib ttk::theme::keramik Tcl ttk::theme::clam ttk::theme::winnative ttk::theme::winxpblue ttk::theme::kroc ttk::theme::clearlooks ttk::theme::vista platform ttk::theme::xpnative ttk::theme::blue tile ttk::theme::scidsand Tk ttk::theme::alt
+2025-06-05 07:03:32,008 - INFO - main.py:182 - Instance VLC et lecteur initialisés avec succès.
+2025-06-05 07:03:32,009 - INFO - main.py:332 - Configuration du logging déjà effectuée, skip.
+2025-06-05 07:03:32,528 - DEBUG - main.py:383 - Root folder not set or invalid. System combobox empty, analyze button disabled.
+2025-06-05 07:03:32,531 - INFO - main.py:1117 - Dernier dossier ROMs chargé: Z:/recalbox/roms
+2025-06-05 07:03:32,532 - DEBUG - main.py:368 - Filtering system combobox for root folder: Z:/recalbox/roms
+2025-06-05 07:03:32,661 - INFO - main.py:1138 - Dernier système sélectionné 'Nintendo Entertainment System (NES/Famicom)' restauré et appliqué.
+2025-06-05 07:03:32,662 - DEBUG - main.py:1033 - on_tab_changed: Onglet Image sélectionné.
+2025-06-05 07:03:32,662 - DEBUG - main.py:869 - display_game_image: No game_data or image_path. Displaying default image.
+2025-06-05 07:03:32,711 - DEBUG - main.py:1723 - Window centered using center_window method: 1920x1009+0+36
+2025-06-05 07:03:32,711 - DEBUG - main.py:1730 - Window centered on first map event and <Map> event unbound.
+2025-06-05 07:03:32,771 - DEBUG - main.py:1723 - Window centered using center_window method: 1920x1009+0+36
+2025-06-05 07:03:32,771 - DEBUG - main.py:1730 - Window centered on first map event and <Map> event unbound.
+2025-06-05 07:03:33,332 - DEBUG - main.py:1723 - Window centered using center_window method: 1920x1009+0+36
+2025-06-05 07:03:33,332 - DEBUG - main.py:1730 - Window centered on first map event and <Map> event unbound.
+2025-06-05 07:03:33,332 - DEBUG - main.py:1735 - apply_initial_vlc_audio_settings: Tentative de régler l'audio VLC sur non-sourdine et volume par défaut.
+2025-06-05 07:03:33,333 - INFO - main.py:1743 - apply_initial_vlc_audio_settings: État VLC après tentative - Sourdine: 0, Volume: 80
+2025-06-05 07:03:33,333 - DEBUG - main.py:1763 - apply_initial_vlc_audio_settings: L'état de l'application (self.video_muted) est cohérent avec l'état effectif de VLC.
+2025-06-05 07:03:35,563 - INFO - main.py:1160 - WM_DELETE_WINDOW : Exécution de on_closing.
+2025-06-05 07:03:35,563 - INFO - main.py:1163 - Arrêt du lecteur VLC.
+2025-06-05 07:03:35,564 - INFO - main.py:1170 - Libération de l'instance VLC.
+2025-06-05 07:03:35,564 - INFO - main.py:1176 - Appel de self.destroy() pour fermer la fenêtre principale.
+2025-06-05 07:03:35,591 - INFO - main.py:1180 - on_closing terminé.
+2025-06-05 07:03:37,899 - INFO - main.py:1160 - WM_DELETE_WINDOW : Exécution de on_closing.
+2025-06-05 07:03:37,899 - INFO - main.py:1163 - Arrêt du lecteur VLC.
+2025-06-05 07:03:37,900 - INFO - main.py:1170 - Libération de l'instance VLC.
+2025-06-05 07:03:37,901 - INFO - main.py:1176 - Appel de self.destroy() pour fermer la fenêtre principale.
+2025-06-05 07:03:37,923 - INFO - main.py:1180 - on_closing terminé.
+2025-06-05 07:03:39,963 - INFO - main.py:326 - Logging configuré. Les logs DEBUG sont enregistrés dans c:\Users\atoda\CascadeProjects\RecalboxGameManager\scanbox.log
+2025-06-05 07:03:40,845 - DEBUG - main.py:162 - Tcl auto_path AVANT TOUTE MODIFICATION: {C:\Python313\tcl\tcl8.6} C:/Python313/tcl C:/lib C:/Python313/tcl/tk8.6 C:/Python313/tcl/tk8.6/ttk {[C:\Users\atoda\AppData\Roaming\Python\Python313\site-packages\ttkthemes/themes]} {[C:\Users\atoda\AppData\Roaming\Python\Python313\site-packages\ttkthemes/png]}
+2025-06-05 07:03:40,845 - DEBUG - main.py:163 - Tcl package names AVANT TOUTE MODIFICATION: http ttk::theme::classic ttk::theme::scidmint ttk::theme::scidblue ttk::theme::scid ttk::theme::ubuntu tcl::tommath TclOO ttk::theme::scidgreen ttk::theme::elegance ttk::theme::scidpink ttk::theme::breeze ttk::theme::equilux ttk::theme::black tcltest ttk::theme::default Ttk ttk::theme::arc ttk::theme::smog ttk::theme::radiance ttk::theme::plastik ttk::theme::itft1 ttk::theme::yaru msgcat ttk::theme::scidgrey ttk::theme::aquativo ttk::theme::scidpurple ttk::theme::adapta zlib ttk::theme::keramik Tcl ttk::theme::clam ttk::theme::winnative ttk::theme::winxpblue ttk::theme::kroc ttk::theme::clearlooks ttk::theme::vista platform ttk::theme::xpnative ttk::theme::blue tile ttk::theme::scidsand Tk ttk::theme::alt
+2025-06-05 07:03:40,886 - INFO - main.py:182 - Instance VLC et lecteur initialisés avec succès.
+2025-06-05 07:03:40,886 - INFO - main.py:332 - Configuration du logging déjà effectuée, skip.
+2025-06-05 07:03:41,355 - DEBUG - main.py:383 - Root folder not set or invalid. System combobox empty, analyze button disabled.
+2025-06-05 07:03:41,356 - INFO - main.py:1117 - Dernier dossier ROMs chargé: Z:/recalbox/roms
+2025-06-05 07:03:41,357 - DEBUG - main.py:368 - Filtering system combobox for root folder: Z:/recalbox/roms
+2025-06-05 07:03:41,457 - INFO - main.py:1138 - Dernier système sélectionné 'Nintendo Entertainment System (NES/Famicom)' restauré et appliqué.
+2025-06-05 07:03:41,457 - DEBUG - main.py:1033 - on_tab_changed: Onglet Image sélectionné.
+2025-06-05 07:03:41,458 - DEBUG - main.py:869 - display_game_image: No game_data or image_path. Displaying default image.
+2025-06-05 07:03:41,507 - DEBUG - main.py:1723 - Window centered using center_window method: 1920x1009+0+36
+2025-06-05 07:03:41,507 - DEBUG - main.py:1730 - Window centered on first map event and <Map> event unbound.
+2025-06-05 07:03:41,562 - DEBUG - main.py:1723 - Window centered using center_window method: 1920x1009+0+36
+2025-06-05 07:03:41,562 - DEBUG - main.py:1730 - Window centered on first map event and <Map> event unbound.
+2025-06-05 07:03:42,062 - DEBUG - main.py:1723 - Window centered using center_window method: 1920x1009+0+36
+2025-06-05 07:03:42,062 - DEBUG - main.py:1730 - Window centered on first map event and <Map> event unbound.
+2025-06-05 07:03:42,062 - DEBUG - main.py:1735 - apply_initial_vlc_audio_settings: Tentative de régler l'audio VLC sur non-sourdine et volume par défaut.
+2025-06-05 07:03:42,063 - INFO - main.py:1743 - apply_initial_vlc_audio_settings: État VLC après tentative - Sourdine: 0, Volume: 80
+2025-06-05 07:03:42,063 - DEBUG - main.py:1763 - apply_initial_vlc_audio_settings: L'état de l'application (self.video_muted) est cohérent avec l'état effectif de VLC.
+2025-06-05 07:03:45,476 - DEBUG - main.py:286 - Bouton Analyser désactivé. État général=False, système sélectionné='PC Engine CD', systèmes disponibles? Oui.
+2025-06-05 07:03:45,476 - DEBUG - main.py:297 - Controls state set to: DISABLED
+2025-06-05 07:03:47,067 - DEBUG - game_parser.py:307 - Starting to process <folder> elements in Z:/recalbox/roms\pcenginecd\gamelist.xml
+2025-06-05 07:03:47,343 - DEBUG - main.py:869 - display_game_image: No game_data or image_path. Displaying default image.
+2025-06-05 07:03:48,130 - DEBUG - main.py:284 - Bouton Analyser activé car état général=True, système sélectionné='PC Engine CD', systèmes disponibles.
+2025-06-05 07:03:48,130 - DEBUG - main.py:297 - Controls state set to: NORMAL
+2025-06-05 07:03:48,528 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:03:48,528 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:03:48,528 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:03:48,852 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:03:48,852 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:03:48,852 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:03:48,852 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\pcenginecd\media\images\4 In 1 Super Cd ca37123ce386033b373b67c85da23d73.png
+2025-06-05 07:03:48,942 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\pcenginecd\\media\\images\\4 In 1 Super Cd ca37123ce386033b373b67c85da23d73.png', 618, 618)
+2025-06-05 07:03:50,916 - DEBUG - main.py:1025 - on_tab_changed: Onglet Vidéo sélectionné.
+2025-06-05 07:04:02,924 - DEBUG - main.py:286 - Bouton Analyser désactivé. État général=False, système sélectionné='Sega 32X', systèmes disponibles? Oui.
+2025-06-05 07:04:02,924 - DEBUG - main.py:297 - Controls state set to: DISABLED
+2025-06-05 07:04:03,637 - DEBUG - game_parser.py:307 - Starting to process <folder> elements in Z:/recalbox/roms\sega32x\gamelist.xml
+2025-06-05 07:04:03,887 - DEBUG - main.py:869 - display_game_image: No game_data or image_path. Displaying default image.
+2025-06-05 07:04:04,727 - DEBUG - main.py:284 - Bouton Analyser activé car état général=True, système sélectionné='Sega 32X', systèmes disponibles.
+2025-06-05 07:04:04,727 - DEBUG - main.py:297 - Controls state set to: NORMAL
+2025-06-05 07:04:09,435 - DEBUG - main.py:1033 - on_tab_changed: Onglet Image sélectionné.
+2025-06-05 07:04:09,435 - DEBUG - main.py:1035 - on_tab_changed: Arrêt de la vidéo car l'onglet Image est actif.
+2025-06-05 07:04:09,498 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:04:09,498 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:04:09,498 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:04:09,825 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:04:09,825 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:04:09,826 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:04:09,826 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\sega32x\media\images\Rbi Baseball 95 a1aa65383666ab12cd8f6ffcabf899a7.png
+2025-06-05 07:04:09,986 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\sega32x\\media\\images\\Rbi Baseball 95 a1aa65383666ab12cd8f6ffcabf899a7.png', 618, 618)
+2025-06-05 07:04:40,235 - DEBUG - main.py:286 - Bouton Analyser désactivé. État général=False, système sélectionné='Super Nintendo (SNES/SFC)', systèmes disponibles? Oui.
+2025-06-05 07:04:40,235 - DEBUG - main.py:297 - Controls state set to: DISABLED
+2025-06-05 07:05:01,716 - DEBUG - game_parser.py:307 - Starting to process <folder> elements in Z:/recalbox/roms\snes\gamelist.xml
+2025-06-05 07:05:01,910 - DEBUG - main.py:869 - display_game_image: No game_data or image_path. Displaying default image.
+2025-06-05 07:05:02,707 - DEBUG - main.py:284 - Bouton Analyser activé car état général=True, système sélectionné='Super Nintendo (SNES/SFC)', systèmes disponibles.
+2025-06-05 07:05:02,707 - DEBUG - main.py:297 - Controls state set to: NORMAL
+2025-06-05 07:05:03,360 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:05:03,360 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:05:03,360 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:05:03,360 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:05:03,360 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:05:03,360 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:05:03,360 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Sanrio World Smash Ball 0d202adf8acfe687557278ff7db7a4cf.png
+2025-06-05 07:05:03,458 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Sanrio World Smash Ball 0d202adf8acfe687557278ff7db7a4cf.png', 618, 618)
+2025-06-05 07:06:13,693 - DEBUG - main.py:233 - Tentative de tri par colonne : game_name
+2025-06-05 07:06:13,694 - INFO - main.py:256 - Jeux triés par nom, ordre inversé : False
+2025-06-05 07:06:14,716 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:06:14,716 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:06:14,716 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:06:14,716 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:06:14,716 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:06:14,716 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:06:14,716 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\3 Ninjas Kick Back b1141a8ef8ca3fe37903b5f039abd753.png
+2025-06-05 07:06:14,824 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\3 Ninjas Kick Back b1141a8ef8ca3fe37903b5f039abd753.png', 618, 618)
+2025-06-05 07:06:24,769 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:06:24,769 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:06:24,769 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:06:24,769 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:06:24,769 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:06:24,769 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:06:24,769 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\3x3 Eyes - Juuma Houkan f7d6e4a1766e27b0395be0e5f4615bd5.png
+2025-06-05 07:06:24,838 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\3x3 Eyes - Juuma Houkan f7d6e4a1766e27b0395be0e5f4615bd5.png', 618, 618)
+2025-06-05 07:06:25,777 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:06:25,777 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:06:25,777 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:06:25,777 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:06:25,777 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:06:25,777 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:06:25,778 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Desert Fighter 831b14694f97b19857fc9b61a3b00a1b.png
+2025-06-05 07:06:25,840 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Desert Fighter 831b14694f97b19857fc9b61a3b00a1b.png', 618, 618)
+2025-06-05 07:06:26,627 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:06:26,627 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:06:26,627 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:06:26,628 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:06:26,628 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:06:26,628 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:06:26,628 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Aaahh Real Monsters 4f74847f9462080693d6248cf069340e.png
+2025-06-05 07:06:26,736 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Aaahh Real Monsters 4f74847f9462080693d6248cf069340e.png', 618, 618)
+2025-06-05 07:06:28,343 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:06:28,343 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:06:28,343 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:06:28,344 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:06:28,344 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:06:28,344 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:06:28,344 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Accele Brid fe4fcb4c657b3d25870ca7d1e860072f.png
+2025-06-05 07:06:28,424 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Accele Brid fe4fcb4c657b3d25870ca7d1e860072f.png', 618, 618)
+2025-06-05 07:06:32,208 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:06:32,208 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:06:32,209 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:06:32,209 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:06:32,209 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:06:32,209 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:06:32,209 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Ace Wo Nerae  0deeb9cfd4cf6ec9bafeac634c962be9.png
+2025-06-05 07:06:32,311 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Ace Wo Nerae  0deeb9cfd4cf6ec9bafeac634c962be9.png', 618, 618)
+2025-06-05 07:06:33,216 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:06:33,216 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:06:33,216 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:06:33,216 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:06:33,216 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:06:33,216 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:06:33,216 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Acrobat Mission 56ea3904fcf8f0c708fe070200fbddad.png
+2025-06-05 07:06:33,291 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Acrobat Mission 56ea3904fcf8f0c708fe070200fbddad.png', 618, 618)
+2025-06-05 07:06:33,969 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:06:33,969 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:06:33,969 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:06:33,969 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:06:33,969 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:06:33,969 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:06:33,969 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Action Pachio ac64810b4a6a13c834f2e01d37d46f57.png
+2025-06-05 07:06:34,037 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Action Pachio ac64810b4a6a13c834f2e01d37d46f57.png', 618, 618)
+2025-06-05 07:06:34,653 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:06:34,653 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:06:34,653 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:06:34,653 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:06:34,653 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:06:34,653 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:06:34,653 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Actraiser e6b892887c07c1e42fe4fbcde188f94d.png
+2025-06-05 07:06:34,730 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Actraiser e6b892887c07c1e42fe4fbcde188f94d.png', 618, 618)
+2025-06-05 07:06:35,317 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:06:35,317 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:06:35,318 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:06:35,318 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:06:35,318 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:06:35,318 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:06:35,318 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Actraiser 9591e2d48c2f29d1dcb96c448f9235d0.png
+2025-06-05 07:06:35,397 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Actraiser 9591e2d48c2f29d1dcb96c448f9235d0.png', 618, 618)
+2025-06-05 07:06:36,076 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:06:36,076 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:06:36,076 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:06:36,076 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:06:36,076 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:06:36,076 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:06:36,076 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Actraiser 2 24185bd5ace300b27e4f68e58d23e52c.png
+2025-06-05 07:06:36,181 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Actraiser 2 24185bd5ace300b27e4f68e58d23e52c.png', 618, 618)
+2025-06-05 07:06:38,252 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:06:38,252 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:06:38,252 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:06:38,252 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:06:38,252 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:06:38,252 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:06:38,252 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Actraiser 9591e2d48c2f29d1dcb96c448f9235d0.png', 618, 618)
+2025-06-05 07:06:48,463 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:07:04,217 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:04,217 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:04,217 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:04,218 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:04,218 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:04,218 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:04,218 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Actraiser 2 24185bd5ace300b27e4f68e58d23e52c.png', 618, 618)
+2025-06-05 07:07:08,008 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:08,008 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:08,008 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:08,008 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:08,008 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:08,008 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:08,008 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Addams Family Values 8bcc2774dd0cce48c81fb4f1453c6ac9.png
+2025-06-05 07:07:08,132 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Addams Family Values 8bcc2774dd0cce48c81fb4f1453c6ac9.png', 618, 618)
+2025-06-05 07:07:09,688 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:09,688 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:09,688 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:09,688 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:09,688 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:09,688 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:09,688 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Advanced Dungeons And Dragons - Eye Of The Beholder f922134bb2af30baf77a70ce0e7ea501.png
+2025-06-05 07:07:09,783 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Advanced Dungeons And Dragons - Eye Of The Beholder f922134bb2af30baf77a70ce0e7ea501.png', 618, 618)
+2025-06-05 07:07:12,535 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:07:29,396 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:29,396 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:29,396 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:29,396 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:29,397 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:29,397 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:29,397 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Adventures Of Yogi Bear 97c6d792512d919eac15094d84dad31e.png
+2025-06-05 07:07:29,493 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Adventures Of Yogi Bear 97c6d792512d919eac15094d84dad31e.png', 618, 618)
+2025-06-05 07:07:32,657 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:32,657 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:32,657 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:32,657 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:32,657 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:32,657 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:32,657 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Aero Fighters b5ed1369b7f58c6f3d9691e48104252e.png
+2025-06-05 07:07:32,729 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Aero Fighters b5ed1369b7f58c6f3d9691e48104252e.png', 618, 618)
+2025-06-05 07:07:34,043 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:34,043 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:34,043 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:34,043 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:34,043 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:34,043 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:34,043 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Aero The Acro-bat 7e1cfa196594bd3bf59b81701a2fb075.png
+2025-06-05 07:07:34,121 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Aero The Acro-bat 7e1cfa196594bd3bf59b81701a2fb075.png', 618, 618)
+2025-06-05 07:07:35,281 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:35,281 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:35,281 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:35,281 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:35,281 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:35,281 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:35,281 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Aero The Acro-bat 2 1e9aabd5ba8489f679bee9fcecececc1.png
+2025-06-05 07:07:35,360 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Aero The Acro-bat 2 1e9aabd5ba8489f679bee9fcecececc1.png', 618, 618)
+2025-06-05 07:07:35,969 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:35,970 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:35,970 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:35,970 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:35,970 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:35,970 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:35,970 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Air Cavalry 1b3fe8fe1fa3562641453f38e02155eb.png
+2025-06-05 07:07:36,025 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Air Cavalry 1b3fe8fe1fa3562641453f38e02155eb.png', 618, 618)
+2025-06-05 07:07:37,394 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:37,395 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:37,395 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:37,395 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:37,395 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:37,395 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:37,395 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Super Castlevania 4 4a02d648d3ff7ac65403955f27f7b9e8.png
+2025-06-05 07:07:37,468 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Super Castlevania 4 4a02d648d3ff7ac65403955f27f7b9e8.png', 618, 618)
+2025-06-05 07:07:38,331 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:38,331 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:38,331 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:38,331 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:38,331 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:38,331 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:38,331 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Akumajou Dracula X 40eb7df8792b44c3763bd3e284a64dd6.png
+2025-06-05 07:07:38,420 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Akumajou Dracula X 40eb7df8792b44c3763bd3e284a64dd6.png', 618, 618)
+2025-06-05 07:07:39,104 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:39,104 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:39,104 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:39,104 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:39,104 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:39,104 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:39,104 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Al Unser Jr.s Road To The Top 663d1e0c09d5cb6139ee7aed572daeb6.png
+2025-06-05 07:07:39,173 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Al Unser Jr.s Road To The Top 663d1e0c09d5cb6139ee7aed572daeb6.png', 618, 618)
+2025-06-05 07:07:40,489 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:40,683 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:40,683 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:40,683 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:40,683 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:40,683 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:40,683 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Disneys Aladdin bc97305a6696e02cdd1cf4e78c78dd49.png
+2025-06-05 07:07:40,783 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Disneys Aladdin bc97305a6696e02cdd1cf4e78c78dd49.png', 618, 618)
+2025-06-05 07:07:41,744 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:41,744 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:41,744 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:41,745 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:41,745 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:41,745 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:41,745 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Alien 3 46fcc50c31bc8ad528d24dcdd8288a7f.png
+2025-06-05 07:07:41,846 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Alien 3 46fcc50c31bc8ad528d24dcdd8288a7f.png', 618, 618)
+2025-06-05 07:07:42,795 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:42,795 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:42,795 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:42,795 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:42,795 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:42,795 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:42,795 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Alien Versus Predator 3c2d6ec7fef54a8af92c93bf61f928b8.png
+2025-06-05 07:07:42,863 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Alien Versus Predator 3c2d6ec7fef54a8af92c93bf61f928b8.png', 618, 618)
+2025-06-05 07:07:43,840 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:43,840 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:43,840 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:43,840 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:43,840 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:43,840 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:43,840 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\American Battle Dome 7e7566c4a41cd8a58f4591af34589c80.png
+2025-06-05 07:07:43,939 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\American Battle Dome 7e7566c4a41cd8a58f4591af34589c80.png', 618, 618)
+2025-06-05 07:07:45,208 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:45,208 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:45,208 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:45,208 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:45,208 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:45,208 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:45,209 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\American Gladiators a2a0bbdaf7809255d4f28ff97b0b84c8.png
+2025-06-05 07:07:45,345 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\American Gladiators a2a0bbdaf7809255d4f28ff97b0b84c8.png', 618, 618)
+2025-06-05 07:07:46,325 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:46,325 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:46,325 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:46,325 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:46,325 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:46,325 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:46,325 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\American Tail - Fievel Goes West An 6212901d121502fc5ad00bc60f2d57e1.png
+2025-06-05 07:07:46,373 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\American Tail - Fievel Goes West An 6212901d121502fc5ad00bc60f2d57e1.png', 618, 618)
+2025-06-05 07:07:47,433 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:47,433 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:47,433 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:47,433 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:47,433 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:47,434 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:47,434 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Andre Agassi Tennis eead5d673d213e7313b330671f47512b.png
+2025-06-05 07:07:47,494 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Andre Agassi Tennis eead5d673d213e7313b330671f47512b.png', 618, 618)
+2025-06-05 07:07:48,376 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:48,376 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:48,376 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:48,376 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:48,377 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:48,377 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:48,377 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Animaniacs 514d16a15656ec7b2a85a182d3059fbb.png
+2025-06-05 07:07:48,483 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Animaniacs 514d16a15656ec7b2a85a182d3059fbb.png', 618, 618)
+2025-06-05 07:07:49,481 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:49,482 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:49,482 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:49,482 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:49,482 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:49,482 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:49,482 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Appleseed - Prometheus no Shintaku b32aafab82854d12d63884b8e273d5d5.png
+2025-06-05 07:07:49,568 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Appleseed - Prometheus no Shintaku b32aafab82854d12d63884b8e273d5d5.png', 618, 618)
+2025-06-05 07:07:50,744 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:50,744 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:50,744 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:50,744 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:50,744 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:50,744 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:50,744 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Araiguma Rascal cf01d9aafda68a34ca564511b43be903.png
+2025-06-05 07:07:50,821 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Araiguma Rascal cf01d9aafda68a34ca564511b43be903.png', 618, 618)
+2025-06-05 07:07:52,354 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:52,354 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:52,354 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:52,354 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:52,354 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:52,354 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:52,354 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Arcades Greatest Hits - The Atari Collection 1 55de2eb1ea3376f98ec0740a45dff9c5.png
+2025-06-05 07:07:52,408 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Arcades Greatest Hits - The Atari Collection 1 55de2eb1ea3376f98ec0740a45dff9c5.png', 618, 618)
+2025-06-05 07:07:53,645 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:53,646 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:53,646 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:53,646 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:53,646 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:53,646 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:53,646 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Arcus Odyssey 383401125af8ac6843d9b3ea2998fd20.png
+2025-06-05 07:07:53,738 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Arcus Odyssey 383401125af8ac6843d9b3ea2998fd20.png', 618, 618)
+2025-06-05 07:07:55,882 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:55,882 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:55,882 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:55,882 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:55,882 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:55,882 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:55,882 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Ardy Lightfoot 4d3a5eb223e6f1208264abf9c90e586c.png
+2025-06-05 07:07:55,973 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Ardy Lightfoot 4d3a5eb223e6f1208264abf9c90e586c.png', 618, 618)
+2025-06-05 07:07:56,900 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:56,900 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:56,900 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:56,900 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:56,900 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:56,901 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:56,901 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\U.n. Squadron 9d73f7e8904d6e1e6839de497dde84f6.png
+2025-06-05 07:07:56,964 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\U.n. Squadron 9d73f7e8904d6e1e6839de497dde84f6.png', 618, 618)
+2025-06-05 07:07:58,860 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:07:58,860 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:07:58,860 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:07:58,860 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:07:58,860 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:07:58,860 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:07:58,860 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Arkanoid - Doh It Again 077a2f6bb9310e010def992c1dd56d8e.png
+2025-06-05 07:07:58,923 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Arkanoid - Doh It Again 077a2f6bb9310e010def992c1dd56d8e.png', 618, 618)
+2025-06-05 07:08:00,448 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:00,448 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:00,449 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:00,449 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:00,449 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:00,449 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:00,449 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Art Of Fighting ed0cd4157418ba0472e3e1614c77e3f6.png
+2025-06-05 07:08:00,577 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Art Of Fighting ed0cd4157418ba0472e3e1614c77e3f6.png', 618, 618)
+2025-06-05 07:08:01,678 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:01,678 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:01,678 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:01,679 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:01,679 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:01,679 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:01,679 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Axelay 393c8e1e7ba4d058f4c13fcf683e0877.png
+2025-06-05 07:08:01,894 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Axelay 393c8e1e7ba4d058f4c13fcf683e0877.png', 618, 618)
+2025-06-05 07:08:02,898 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:02,898 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:02,899 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:02,899 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:02,899 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:02,899 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:02,899 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\B.o.b. 13b73d56dab331eb3bbe429115493832.png
+2025-06-05 07:08:02,947 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\B.o.b. 13b73d56dab331eb3bbe429115493832.png', 618, 618)
+2025-06-05 07:08:04,207 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:04,207 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:04,207 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:04,212 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:04,212 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:04,212 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:04,212 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bahamut Lagoon e286308a9f1610e363eb5b91df81465e.png
+2025-06-05 07:08:04,278 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bahamut Lagoon e286308a9f1610e363eb5b91df81465e.png', 618, 618)
+2025-06-05 07:08:07,194 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:07,194 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:07,194 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:07,200 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:07,200 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:07,200 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:07,200 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bakukyuu Renpatsu Super B-daman 7410b77e6b3a6ecf58f1ee297e4004fc.png
+2025-06-05 07:08:07,266 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bakukyuu Renpatsu Super B-daman 7410b77e6b3a6ecf58f1ee297e4004fc.png', 618, 618)
+2025-06-05 07:08:13,167 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:13,168 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:13,168 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:13,173 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:13,173 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:13,173 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:13,173 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bakutou Dochers a76455b802e49d690baebaf7ac4e0175.png
+2025-06-05 07:08:13,279 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bakutou Dochers a76455b802e49d690baebaf7ac4e0175.png', 618, 618)
+2025-06-05 07:08:14,948 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:14,948 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:14,948 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:14,953 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:14,953 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:14,953 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:14,953 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Ballz 3d - Fighting At Its Ballziest 1d02273b07c5acdd16a4d869016427b5.png
+2025-06-05 07:08:15,040 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Ballz 3d - Fighting At Its Ballziest 1d02273b07c5acdd16a4d869016427b5.png', 618, 618)
+2025-06-05 07:08:16,966 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:08:31,905 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:31,905 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:31,905 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:31,905 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:31,905 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:31,905 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:31,906 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Barkley - Shut Up And Jam dcee67d997b37d41b8e2a6b6e5db0e68.png
+2025-06-05 07:08:32,005 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Barkley - Shut Up And Jam dcee67d997b37d41b8e2a6b6e5db0e68.png', 618, 618)
+2025-06-05 07:08:34,462 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:34,462 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:34,462 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:34,468 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:34,468 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:34,468 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:34,468 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bastard f876a3615d2b6254090cff237a20af94.png
+2025-06-05 07:08:34,552 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bastard f876a3615d2b6254090cff237a20af94.png', 618, 618)
+2025-06-05 07:08:35,859 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:35,859 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:35,859 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:35,864 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:35,864 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:35,864 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:35,864 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Batman Forever 5dba7801f513a69774be48e19030ab0b.png
+2025-06-05 07:08:35,935 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Batman Forever 5dba7801f513a69774be48e19030ab0b.png', 618, 618)
+2025-06-05 07:08:37,207 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:37,207 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:37,207 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:37,212 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:37,212 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:37,212 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:37,212 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Batman Returns 8636642a86b4d75792f46b189c094c16.png
+2025-06-05 07:08:37,296 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Batman Returns 8636642a86b4d75792f46b189c094c16.png', 618, 618)
+2025-06-05 07:08:38,127 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:38,127 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:38,127 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:38,132 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:38,132 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:38,132 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:38,132 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battle Blaze e5bf85c1cca79b04e84f39bf612c8821.png
+2025-06-05 07:08:38,202 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battle Blaze e5bf85c1cca79b04e84f39bf612c8821.png', 618, 618)
+2025-06-05 07:08:39,072 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:39,072 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:39,072 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:39,077 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:39,077 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:39,077 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:39,077 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battle Cars dcc3497e08679a8d1f4dde8f52f24a3c.png
+2025-06-05 07:08:39,128 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battle Cars dcc3497e08679a8d1f4dde8f52f24a3c.png', 618, 618)
+2025-06-05 07:08:40,121 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:40,121 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:40,122 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:40,126 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:40,127 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:40,127 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:40,127 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battle Clash b8a997a9a1bac7566917f3c715948cf7.png
+2025-06-05 07:08:40,185 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battle Clash b8a997a9a1bac7566917f3c715948cf7.png', 618, 618)
+2025-06-05 07:08:41,049 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:41,049 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:41,050 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:41,054 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:41,054 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:41,055 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:41,055 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battle Cross 9c76529f9767d97ea4a960a7ecc3dc46.png
+2025-06-05 07:08:41,150 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battle Cross 9c76529f9767d97ea4a960a7ecc3dc46.png', 618, 618)
+2025-06-05 07:08:42,210 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:42,210 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:42,211 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:42,216 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:42,216 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:42,216 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:42,216 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battle Dodge Ball - Toukyuu Daigekitotsu 6ae756de4d7b68b13604619c3a4f96a3.png
+2025-06-05 07:08:42,265 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battle Dodge Ball - Toukyuu Daigekitotsu 6ae756de4d7b68b13604619c3a4f96a3.png', 618, 618)
+2025-06-05 07:08:43,431 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:43,431 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:43,431 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:43,436 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:43,436 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:43,436 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:43,436 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battle Dodge Ball 2 e551ca6633520815915628d740cff79b.png
+2025-06-05 07:08:43,519 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battle Dodge Ball 2 e551ca6633520815915628d740cff79b.png', 618, 618)
+2025-06-05 07:08:44,733 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:44,733 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:44,733 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:44,738 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:44,738 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:44,738 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:44,738 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battle Grand Prix 8064ff4c518c93b785b6051404f871ce.png
+2025-06-05 07:08:44,800 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battle Grand Prix 8064ff4c518c93b785b6051404f871ce.png', 618, 618)
+2025-06-05 07:08:46,185 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:46,186 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:46,186 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:46,191 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:46,191 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:46,191 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:46,191 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battle Master - Kyuukyoku No Senshi-tachi f5d72e9238d7476e1ac2ff90613576d0.png
+2025-06-05 07:08:46,321 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battle Master - Kyuukyoku No Senshi-tachi f5d72e9238d7476e1ac2ff90613576d0.png', 618, 618)
+2025-06-05 07:08:47,279 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:47,328 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:47,329 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:47,334 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:47,334 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:47,334 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:47,334 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battle Pinball 31a65022d905ea5d796a6560cef6f94a.png
+2025-06-05 07:08:47,393 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battle Pinball 31a65022d905ea5d796a6560cef6f94a.png', 618, 618)
+2025-06-05 07:08:48,945 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:48,945 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:48,945 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:48,950 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:48,951 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:48,951 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:48,951 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battle Racers f7494cd565c075e237153c97bbc58501.png
+2025-06-05 07:08:49,064 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battle Racers f7494cd565c075e237153c97bbc58501.png', 618, 618)
+2025-06-05 07:08:49,989 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:49,989 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:49,989 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:49,994 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:49,994 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:49,994 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:49,994 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battle Soccer 2 dc7de19c9ef54c6f4075e5d5bba3ba75.png
+2025-06-05 07:08:50,085 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battle Soccer 2 dc7de19c9ef54c6f4075e5d5bba3ba75.png', 618, 618)
+2025-06-05 07:08:51,105 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:51,105 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:51,105 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:51,110 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:51,110 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:51,110 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:51,110 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battle Soccer - Field No Hasha 59b9d8531c62aa63f3414fd7f86bd1f0.png
+2025-06-05 07:08:51,211 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battle Soccer - Field No Hasha 59b9d8531c62aa63f3414fd7f86bd1f0.png', 618, 618)
+2025-06-05 07:08:52,261 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:52,262 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:52,262 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:52,267 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:52,267 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:52,267 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:52,267 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battle Tycoon 0a1a59abc9f53917b23c7ce40d7d012a.png
+2025-06-05 07:08:52,362 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battle Tycoon 0a1a59abc9f53917b23c7ce40d7d012a.png', 618, 618)
+2025-06-05 07:08:53,303 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:53,304 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:53,304 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:53,309 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:53,309 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:53,309 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:53,309 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battle Zeque Den ed099d4205001a24eaf3babfd1954f2a.png
+2025-06-05 07:08:53,412 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battle Zeque Den ed099d4205001a24eaf3babfd1954f2a.png', 618, 618)
+2025-06-05 07:08:54,732 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:54,732 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:54,732 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:54,737 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:54,737 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:54,737 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:54,737 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Mechwarrior 5b1d3c5f2ae9d28b0882cb2842b38f02.png
+2025-06-05 07:08:54,791 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Mechwarrior 5b1d3c5f2ae9d28b0882cb2842b38f02.png', 618, 618)
+2025-06-05 07:08:58,262 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:58,262 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:58,262 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:58,268 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:58,268 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:58,268 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:58,268 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Mechwarrior 3050 d11b3b3dd06affbe53cbdd217cc11a66.png
+2025-06-05 07:08:58,340 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Mechwarrior 3050 d11b3b3dd06affbe53cbdd217cc11a66.png', 618, 618)
+2025-06-05 07:08:59,395 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:08:59,395 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:08:59,395 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:08:59,400 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:08:59,400 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:08:59,400 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:08:59,400 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battletoads And Double Dragon 9a87e8af854e598432fe43e2c6558883.png
+2025-06-05 07:08:59,469 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battletoads And Double Dragon 9a87e8af854e598432fe43e2c6558883.png', 618, 618)
+2025-06-05 07:09:00,689 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:09:00,689 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:09:00,689 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:09:00,694 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:09:00,694 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:09:00,694 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:09:00,694 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Battletoads In Battlemaniacs e43f2c3f8b6b4ee253222c5b774c69b3.png
+2025-06-05 07:09:00,752 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Battletoads In Battlemaniacs e43f2c3f8b6b4ee253222c5b774c69b3.png', 618, 618)
+2025-06-05 07:09:01,644 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:09:01,644 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:09:01,644 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:09:01,650 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:09:01,650 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:09:01,650 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:09:01,650 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bazooka Blitzkrieg 4d40e0710923519279fdd3f04ce4481b.png
+2025-06-05 07:09:01,711 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bazooka Blitzkrieg 4d40e0710923519279fdd3f04ce4481b.png', 618, 618)
+2025-06-05 07:09:02,877 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:09:02,877 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:09:02,877 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:09:02,882 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:09:02,883 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:09:02,883 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:09:02,883 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Disneys Beauty And The Beast 272b471a7cd2c5688d62b9ce7b0ac0da.png
+2025-06-05 07:09:02,940 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Disneys Beauty And The Beast 272b471a7cd2c5688d62b9ce7b0ac0da.png', 618, 618)
+2025-06-05 07:09:04,009 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:09:04,009 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:09:04,009 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:09:04,009 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:09:04,009 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:09:04,009 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:09:04,009 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bazooka Blitzkrieg 4d40e0710923519279fdd3f04ce4481b.png', 618, 618)
+2025-06-05 07:09:05,197 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:09:20,847 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:09:20,847 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:09:20,847 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:09:20,847 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:09:20,847 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:09:20,847 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:09:20,847 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Disneys Beauty And The Beast 272b471a7cd2c5688d62b9ce7b0ac0da.png', 618, 618)
+2025-06-05 07:09:23,298 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:09:23,298 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:09:23,298 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:09:23,303 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:09:23,304 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:09:23,304 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:09:23,304 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Beavis And Butt-head b86f8957fa4f5e5433ee136c9fedf5be.png
+2025-06-05 07:09:23,373 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Beavis And Butt-head b86f8957fa4f5e5433ee136c9fedf5be.png', 618, 618)
+2025-06-05 07:09:24,618 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:09:24,618 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:09:24,618 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:09:24,623 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:09:24,623 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:09:24,623 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:09:24,623 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bebes Kids bbbb7de48fbb248b468d806fc45b8071.png
+2025-06-05 07:09:24,732 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bebes Kids bbbb7de48fbb248b468d806fc45b8071.png', 618, 618)
+2025-06-05 07:09:27,965 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:09:43,092 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:09:43,093 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:09:43,093 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:09:43,093 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:09:43,093 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:09:43,093 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:09:43,093 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Best Of The Best - Championship Karate 44dff468b9fbe20288a4af3e00b31c7a.png
+2025-06-05 07:09:43,200 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Best Of The Best - Championship Karate 44dff468b9fbe20288a4af3e00b31c7a.png', 618, 618)
+2025-06-05 07:09:45,578 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:09:45,578 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:09:45,578 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:09:45,583 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:09:45,583 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:09:45,583 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:09:45,583 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Big Sky Trooper dc70598bac1a2d6543917f36bd7af400.png
+2025-06-05 07:09:45,666 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Big Sky Trooper dc70598bac1a2d6543917f36bd7af400.png', 618, 618)
+2025-06-05 07:09:49,509 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:10:04,413 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:10:04,413 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:10:04,413 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:10:04,413 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:10:04,413 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:10:04,413 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:10:04,413 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Disneys Beauty And The Beast b229c44938e6ddfc08b0bd3db29520cb.png
+2025-06-05 07:10:04,508 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Disneys Beauty And The Beast b229c44938e6ddfc08b0bd3db29520cb.png', 618, 618)
+2025-06-05 07:10:08,186 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:10:08,186 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:10:08,186 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:10:08,191 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:10:08,191 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:10:08,191 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:10:08,191 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bike Daisuki Hashiriya Tamashii 51533796b48315cfc6dff535da7c4899.png
+2025-06-05 07:10:08,299 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bike Daisuki Hashiriya Tamashii 51533796b48315cfc6dff535da7c4899.png', 618, 618)
+2025-06-05 07:10:10,069 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:10:10,069 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:10:10,069 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:10:10,074 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:10:10,074 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:10:10,074 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:10:10,074 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Biker Mice From Mars 9b2c885563c2c7031bbf7c73ef819ee3.png
+2025-06-05 07:10:10,171 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Biker Mice From Mars 9b2c885563c2c7031bbf7c73ef819ee3.png', 618, 618)
+2025-06-05 07:10:12,160 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:10:12,161 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:10:12,161 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:10:12,165 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:10:12,166 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:10:12,166 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:10:12,166 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bill Laimbeers Combat Basketball 96c6cf2ab8bd9ed71a2fb0b259f87ea4.png
+2025-06-05 07:10:12,215 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bill Laimbeers Combat Basketball 96c6cf2ab8bd9ed71a2fb0b259f87ea4.png', 618, 618)
+2025-06-05 07:10:15,649 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:10:15,649 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:10:15,649 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:10:15,654 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:10:15,655 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:10:15,655 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:10:15,655 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bing Bing Bingo bb6a379fd22c40e40b711c32d4043966.png
+2025-06-05 07:10:15,732 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bing Bing Bingo bb6a379fd22c40e40b711c32d4043966.png', 618, 618)
+2025-06-05 07:10:18,852 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:10:33,579 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:10:33,579 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:10:33,579 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:10:33,579 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:10:33,579 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:10:33,579 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:10:33,579 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Biometal 7f3a0feb6010097e909d0fde68bd0293.png
+2025-06-05 07:10:33,634 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Biometal 7f3a0feb6010097e909d0fde68bd0293.png', 618, 618)
+2025-06-05 07:13:07,451 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:07,451 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:07,451 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:07,456 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:07,456 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:07,456 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:07,456 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bishin Densetsu Zoku b875cc78d8658f66f9e9ea65e2f38d4d.png
+2025-06-05 07:13:07,561 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bishin Densetsu Zoku b875cc78d8658f66f9e9ea65e2f38d4d.png', 618, 618)
+2025-06-05 07:13:08,783 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:08,783 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:08,783 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:08,789 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:08,789 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:08,789 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:08,789 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Sailor Moon 2221060cc959997fb4b31066901e0368.png
+2025-06-05 07:13:08,860 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Sailor Moon 2221060cc959997fb4b31066901e0368.png', 618, 618)
+2025-06-05 07:13:09,711 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:09,711 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:09,711 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:09,716 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:09,716 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:09,716 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:09,716 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bishoujo Senshi Sailor Moon R 9b68e4b47a96a19c529089a6cd8b1a79.png
+2025-06-05 07:13:09,780 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bishoujo Senshi Sailor Moon R 9b68e4b47a96a19c529089a6cd8b1a79.png', 618, 618)
+2025-06-05 07:13:10,459 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:10,460 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:10,460 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:10,465 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:10,465 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:10,465 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:10,465 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Blackhawk 35672f44adbbb661057e1d7a99330ed1.png
+2025-06-05 07:13:10,542 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Blackhawk 35672f44adbbb661057e1d7a99330ed1.png', 618, 618)
+2025-06-05 07:13:11,224 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:11,224 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:11,224 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:11,229 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:11,230 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:11,230 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:11,230 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Blazeon - The Bio-cyborg Challenge 5aa63fba3222ab2bd6e92dcf800fd4d9.png
+2025-06-05 07:13:11,301 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Blazeon - The Bio-cyborg Challenge 5aa63fba3222ab2bd6e92dcf800fd4d9.png', 618, 618)
+2025-06-05 07:13:12,036 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:12,036 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:12,036 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:12,041 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:12,041 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:12,041 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:12,041 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Blazeon - The Bio-cyborg Challenge e72719fa084f04ea8169055ae6cc58b2.png
+2025-06-05 07:13:12,082 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Blazeon - The Bio-cyborg Challenge e72719fa084f04ea8169055ae6cc58b2.png', 618, 618)
+2025-06-05 07:13:13,145 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:13,145 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:13,145 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:13,150 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:13,150 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:13,150 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:13,150 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bomber Man B-daman 531972145ed014c5e918f7b04b56a651.png
+2025-06-05 07:13:13,300 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bomber Man B-daman 531972145ed014c5e918f7b04b56a651.png', 618, 618)
+2025-06-05 07:13:13,756 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:13,757 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:13,757 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:13,757 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:13,757 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:13,757 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:13,757 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Blazeon - The Bio-cyborg Challenge e72719fa084f04ea8169055ae6cc58b2.png', 618, 618)
+2025-06-05 07:13:14,421 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:14,421 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:14,421 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:14,421 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:14,421 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:14,421 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:14,421 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Blazeon - The Bio-cyborg Challenge 5aa63fba3222ab2bd6e92dcf800fd4d9.png', 618, 618)
+2025-06-05 07:13:15,293 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:15,294 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:15,294 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:15,294 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:15,294 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:15,294 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:15,294 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Blazeon - The Bio-cyborg Challenge e72719fa084f04ea8169055ae6cc58b2.png', 618, 618)
+2025-06-05 07:13:15,957 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:15,957 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:15,957 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:15,957 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:15,957 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:15,957 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:15,957 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Blazeon - The Bio-cyborg Challenge 5aa63fba3222ab2bd6e92dcf800fd4d9.png', 618, 618)
+2025-06-05 07:13:19,269 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:19,269 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:19,269 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:19,269 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:19,269 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:19,269 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:19,269 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Blazeon - The Bio-cyborg Challenge e72719fa084f04ea8169055ae6cc58b2.png', 618, 618)
+2025-06-05 07:13:20,386 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:13:35,452 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:35,452 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:35,452 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:35,452 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:35,452 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:35,452 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:35,452 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bomber Man B-daman 531972145ed014c5e918f7b04b56a651.png', 618, 618)
+2025-06-05 07:13:37,809 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:37,809 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:37,809 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:37,814 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:37,814 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:37,814 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:37,814 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bonkers 256780db10e5fba6572b0a59bf5a5dcf.png
+2025-06-05 07:13:37,883 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bonkers 256780db10e5fba6572b0a59bf5a5dcf.png', 618, 618)
+2025-06-05 07:13:38,761 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:38,761 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:38,761 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:38,766 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:38,766 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:38,766 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:38,766 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Boogerman - A Pick And Flick Adventure 5bec7c28887020d618da5f6e02119b00.png
+2025-06-05 07:13:38,923 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Boogerman - A Pick And Flick Adventure 5bec7c28887020d618da5f6e02119b00.png', 618, 618)
+2025-06-05 07:13:39,977 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:39,977 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:39,977 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:39,983 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:39,983 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:39,983 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:39,983 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Boxing Legends Of The Ring e60c7c9ab8cbea122c557450a6c6823d.png
+2025-06-05 07:13:40,060 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Boxing Legends Of The Ring e60c7c9ab8cbea122c557450a6c6823d.png', 618, 618)
+2025-06-05 07:13:40,923 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:40,923 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:40,923 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:40,928 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:40,928 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:40,928 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:40,928 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Brain Lord 78ebfb5a6da2b4bd9615535064212d53.png
+2025-06-05 07:13:40,993 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Brain Lord 78ebfb5a6da2b4bd9615535064212d53.png', 618, 618)
+2025-06-05 07:13:43,642 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:13:58,869 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:13:58,869 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:13:58,869 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:13:58,869 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:13:58,869 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:13:58,869 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:13:58,869 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bram Stokers Dracula c022a29fe8e87826edea2ca8e1358376.png
+2025-06-05 07:13:58,997 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bram Stokers Dracula c022a29fe8e87826edea2ca8e1358376.png', 618, 618)
+2025-06-05 07:14:02,351 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:14:02,351 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:14:02,351 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:14:02,356 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:14:02,356 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:14:02,356 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:14:02,356 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Brandish 63019c3bdaf959b530d2104d81b2df1a.png
+2025-06-05 07:14:02,450 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Brandish 63019c3bdaf959b530d2104d81b2df1a.png', 618, 618)
+2025-06-05 07:14:04,242 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:14:19,001 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:14:19,001 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:14:19,001 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:14:19,001 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:14:19,001 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:14:19,001 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:14:19,001 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Brandish 2 - Expert 9be1aa85a285425c7fc2c477daeacbcd.png
+2025-06-05 07:14:19,060 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Brandish 2 - Expert 9be1aa85a285425c7fc2c477daeacbcd.png', 618, 618)
+2025-06-05 07:14:23,545 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:14:39,173 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:14:39,173 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:14:39,173 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:14:39,174 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:14:39,174 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:14:39,174 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:14:39,174 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Brawl Brothers 6a31bfa76a02dc79e3177d53a3fe17c1.png
+2025-06-05 07:14:39,256 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Brawl Brothers 6a31bfa76a02dc79e3177d53a3fe17c1.png', 618, 618)
+2025-06-05 07:17:41,151 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:17:41,151 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:17:41,151 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:17:41,151 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:17:41,151 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:17:41,151 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:17:41,151 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Brawl Brothers 6a31bfa76a02dc79e3177d53a3fe17c1.png', 618, 618)
+2025-06-05 07:17:43,036 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:17:43,036 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:17:43,036 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:17:43,041 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:17:43,041 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:17:43,041 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:17:43,041 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Brett Hull Hockey 87cf3e68dc2621a6d78ab391dd82b8cf.png
+2025-06-05 07:17:43,113 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Brett Hull Hockey 87cf3e68dc2621a6d78ab391dd82b8cf.png', 618, 618)
+2025-06-05 07:17:44,379 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:17:44,379 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:17:44,379 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:17:44,384 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:17:44,384 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:17:44,384 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:17:44,384 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Brett Hull Hockey 95 aa3d090fff59786059491bf71a8645ec.png
+2025-06-05 07:17:44,470 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Brett Hull Hockey 95 aa3d090fff59786059491bf71a8645ec.png', 618, 618)
+2025-06-05 07:17:46,008 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:17:46,008 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:17:46,008 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:17:46,008 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:17:46,008 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:17:46,008 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:17:46,008 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Brett Hull Hockey 87cf3e68dc2621a6d78ab391dd82b8cf.png', 618, 618)
+2025-06-05 07:17:46,803 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:17:46,803 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:17:46,803 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:17:46,803 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:17:46,803 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:17:46,803 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:17:46,803 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Brett Hull Hockey 95 aa3d090fff59786059491bf71a8645ec.png', 618, 618)
+2025-06-05 07:17:47,547 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:17:47,547 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:17:47,547 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:17:47,552 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:17:47,552 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:17:47,553 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:17:47,553 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bronkie The Bronchiasaurus 323204467be12bd9fba56e209b438bd3.png
+2025-06-05 07:17:47,603 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bronkie The Bronchiasaurus 323204467be12bd9fba56e209b438bd3.png', 618, 618)
+2025-06-05 07:17:49,455 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:17:49,455 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:17:49,455 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:17:49,460 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:17:49,460 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:17:49,460 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:17:49,460 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Brutal - Paws Of Fury 86eefd33fc221defead99577bee7f338.png
+2025-06-05 07:17:49,523 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Brutal - Paws Of Fury 86eefd33fc221defead99577bee7f338.png', 618, 618)
+2025-06-05 07:17:50,856 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:17:50,856 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:17:50,856 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:17:50,861 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:17:50,861 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:17:50,861 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:17:50,861 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bs F-zero Grand Prix 2 9db0092cf6aa38af99044dab95bab4af.png
+2025-06-05 07:17:50,920 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bs F-zero Grand Prix 2 9db0092cf6aa38af99044dab95bab4af.png', 618, 618)
+2025-06-05 07:17:52,167 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:17:52,167 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:17:52,167 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:17:52,172 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:17:52,172 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:17:52,172 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:17:52,172 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bubsy 2 98624d42d824826bcbf263b12b4c5005.png
+2025-06-05 07:17:52,273 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bubsy 2 98624d42d824826bcbf263b12b4c5005.png', 618, 618)
+2025-06-05 07:17:54,144 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:17:54,144 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:17:54,144 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:17:54,149 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:17:54,149 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:17:54,149 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:17:54,149 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bubsy In - Claws Encounters Of The Furred Kind 0b7d6ca0acb218d63442104aec36bca6.png
+2025-06-05 07:17:54,226 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bubsy In - Claws Encounters Of The Furred Kind 0b7d6ca0acb218d63442104aec36bca6.png', 618, 618)
+2025-06-05 07:17:55,293 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:17:55,293 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:17:55,294 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:17:55,299 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:17:55,299 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:17:55,299 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:17:55,299 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bugs Bunny - Rabbit Rampage 2444b744fecc01c134b52a71a6d4b538.png
+2025-06-05 07:17:55,341 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bugs Bunny - Rabbit Rampage 2444b744fecc01c134b52a71a6d4b538.png', 618, 618)
+2025-06-05 07:17:56,725 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:17:56,725 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:17:56,725 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:17:56,730 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:17:56,731 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:17:56,731 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:17:56,731 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Bulls Vs Blazers And The Nba Playoffs efcfa604e9cfef4ae0bdf86488ba9fd4.png
+2025-06-05 07:17:56,789 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Bulls Vs Blazers And The Nba Playoffs efcfa604e9cfef4ae0bdf86488ba9fd4.png', 618, 618)
+2025-06-05 07:17:58,271 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:17:58,271 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:17:58,271 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:17:58,277 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:17:58,277 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:17:58,277 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:17:58,277 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Puzzle Bobble - Bust-a-move fac883a14026f7aceba5f39fc520709a.png
+2025-06-05 07:17:58,334 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Puzzle Bobble - Bust-a-move fac883a14026f7aceba5f39fc520709a.png', 618, 618)
+2025-06-05 07:18:00,148 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:00,149 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:00,149 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:00,154 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:00,154 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:00,154 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:00,154 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\California Games 2 e059a0143796cf874cd8b84839ad132e.png
+2025-06-05 07:18:00,217 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\California Games 2 e059a0143796cf874cd8b84839ad132e.png', 618, 618)
+2025-06-05 07:18:01,530 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:01,530 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:01,530 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:01,535 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:01,535 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:01,536 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:01,536 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Cannon Fodder 22d2bbdbfaf0c3500c6ed7569a6cb78b.png
+2025-06-05 07:18:01,607 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Cannon Fodder 22d2bbdbfaf0c3500c6ed7569a6cb78b.png', 618, 618)
+2025-06-05 07:18:02,756 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:02,756 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:02,756 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:02,761 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:02,761 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:02,761 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:02,761 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Cannondale Cup 4c3ee740a3978739138ec439904fd684.png
+2025-06-05 07:18:02,840 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Cannondale Cup 4c3ee740a3978739138ec439904fd684.png', 618, 618)
+2025-06-05 07:18:03,886 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:03,886 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:03,886 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:03,892 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:03,892 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:03,892 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:03,892 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Soccer Shootout a7b30c01859cc0c80884e96ca1042b65.png
+2025-06-05 07:18:03,971 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Soccer Shootout a7b30c01859cc0c80884e96ca1042b65.png', 618, 618)
+2025-06-05 07:18:04,970 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:04,970 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:04,970 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:04,975 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:04,975 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:04,975 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:04,975 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Captain America And The Avengers c916662d930f9d96e9fa4d1bead38b66.png
+2025-06-05 07:18:05,065 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Captain America And The Avengers c916662d930f9d96e9fa4d1bead38b66.png', 618, 618)
+2025-06-05 07:18:06,062 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:06,090 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:06,090 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:06,095 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:06,096 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:06,096 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:06,096 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Captain Commando 442ce1e5a5941d592e2cd2f311ba0aa2.png
+2025-06-05 07:18:06,151 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Captain Commando 442ce1e5a5941d592e2cd2f311ba0aa2.png', 618, 618)
+2025-06-05 07:18:07,495 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:07,495 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:07,495 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:07,500 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:07,500 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:07,500 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:07,500 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Captain Novolin 7a3d845527b8b0caad19bcc4f7a05568.png
+2025-06-05 07:18:07,577 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Captain Novolin 7a3d845527b8b0caad19bcc4f7a05568.png', 618, 618)
+2025-06-05 07:18:08,761 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:08,822 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:08,822 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:08,828 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:08,828 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:08,828 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:08,828 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Captain Tsubasa 3 - Koutei No Chousen 5b15cc0f61e7b8ccbae93b6ab782f3b0.png
+2025-06-05 07:18:08,917 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Captain Tsubasa 3 - Koutei No Chousen 5b15cc0f61e7b8ccbae93b6ab782f3b0.png', 618, 618)
+2025-06-05 07:18:10,694 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:10,694 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:10,694 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:10,699 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:10,699 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:10,699 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:10,699 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Captain Tsubasa 4 - Pro No Rival-tachi 1aefe02cf91bcadcfbd79b9f54677e9e.png
+2025-06-05 07:18:10,752 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Captain Tsubasa 4 - Pro No Rival-tachi 1aefe02cf91bcadcfbd79b9f54677e9e.png', 618, 618)
+2025-06-05 07:18:13,468 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:13,468 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:13,468 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:13,474 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:13,474 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:13,474 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:13,474 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Captain Tsubasa J b8a90ab5e394b869fa7928dc4289d14f.png
+2025-06-05 07:18:13,564 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Captain Tsubasa J b8a90ab5e394b869fa7928dc4289d14f.png', 618, 618)
+2025-06-05 07:18:14,500 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:14,500 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:14,500 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:14,505 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:14,505 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:14,505 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:14,506 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Captain Tsubasa 5 - Hasha No Shougou Campione aec8590d44ff194943c650c2adc500ed.png
+2025-06-05 07:18:14,572 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Captain Tsubasa 5 - Hasha No Shougou Campione aec8590d44ff194943c650c2adc500ed.png', 618, 618)
+2025-06-05 07:18:18,717 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:18,718 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:18,718 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:18,718 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:18,718 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:18,718 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:18,718 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Captain Tsubasa J b8a90ab5e394b869fa7928dc4289d14f.png', 618, 618)
+2025-06-05 07:18:20,910 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:18:35,928 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:35,928 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:35,928 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:35,928 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:35,928 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:35,928 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:35,928 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Captain Tsubasa 5 - Hasha No Shougou Campione aec8590d44ff194943c650c2adc500ed.png', 618, 618)
+2025-06-05 07:18:39,700 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:39,700 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:39,700 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:39,705 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:39,706 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:39,706 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:39,706 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Caravan Shooting Collection c6b5f708363ed29313fb4f5e6842ff58.png
+2025-06-05 07:18:39,776 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Caravan Shooting Collection c6b5f708363ed29313fb4f5e6842ff58.png', 618, 618)
+2025-06-05 07:18:43,773 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:43,773 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:43,773 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:43,773 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:43,773 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:43,773 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:43,773 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Captain Tsubasa 5 - Hasha No Shougou Campione aec8590d44ff194943c650c2adc500ed.png', 618, 618)
+2025-06-05 07:18:53,396 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:53,396 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:53,396 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:53,396 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:53,396 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:53,396 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:53,396 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Caravan Shooting Collection c6b5f708363ed29313fb4f5e6842ff58.png', 618, 618)
+2025-06-05 07:18:55,542 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:18:55,542 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:18:55,542 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:18:55,547 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:18:55,547 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:18:55,548 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:18:55,548 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Carrier Aces 5ca96274778cae668172306ccc77304d.png
+2025-06-05 07:18:55,592 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Carrier Aces 5ca96274778cae668172306ccc77304d.png', 618, 618)
+2025-06-05 07:19:08,203 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:08,203 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:08,203 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:08,208 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:08,208 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:08,208 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:08,208 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Casper 60ce55d2e1f4790394448affde986cea.png
+2025-06-05 07:19:08,286 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Casper 60ce55d2e1f4790394448affde986cea.png', 618, 618)
+2025-06-05 07:19:09,480 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:09,480 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:09,480 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:09,485 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:09,485 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:09,486 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:09,486 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Akumajou Dracula X 5a4a9d9ebfb8ba08414db51f95d49db2.png
+2025-06-05 07:19:09,562 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Akumajou Dracula X 5a4a9d9ebfb8ba08414db51f95d49db2.png', 618, 618)
+2025-06-05 07:19:10,619 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:10,619 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:10,619 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:10,624 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:10,624 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:10,624 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:10,624 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Cb Chara Wars - Ushinawareta Gag 24d42a255317301218c231f9eb967b64.png
+2025-06-05 07:19:10,713 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Cb Chara Wars - Ushinawareta Gag 24d42a255317301218c231f9eb967b64.png', 618, 618)
+2025-06-05 07:19:14,873 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:14,873 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:14,873 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:14,873 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:14,873 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:14,874 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:14,874 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Akumajou Dracula X 5a4a9d9ebfb8ba08414db51f95d49db2.png', 618, 618)
+2025-06-05 07:19:15,662 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:19:31,653 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:31,653 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:31,653 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:31,653 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:31,653 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:31,653 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:31,653 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Cb Chara Wars - Ushinawareta Gag 24d42a255317301218c231f9eb967b64.png', 618, 618)
+2025-06-05 07:19:36,128 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:36,129 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:36,129 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:36,133 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:36,134 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:36,134 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:36,134 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Champions World Class Soccer 355a95bcb55394ead44ab6b903f4a8c0.png
+2025-06-05 07:19:36,189 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Champions World Class Soccer 355a95bcb55394ead44ab6b903f4a8c0.png', 618, 618)
+2025-06-05 07:19:37,416 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:37,432 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:37,432 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:37,437 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:37,437 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:37,437 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:37,437 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Sensible Soccer - European Champions 0a8d06af035ecf0ee444e1538f9c5c5f.png
+2025-06-05 07:19:37,505 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Sensible Soccer - European Champions 0a8d06af035ecf0ee444e1538f9c5c5f.png', 618, 618)
+2025-06-05 07:19:39,217 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:39,217 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:39,217 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:39,222 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:39,222 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:39,222 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:39,222 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Chaos Seed - Fuusui Kairoki d55813072ec36b586cbe25f6c4bd4321.png
+2025-06-05 07:19:39,301 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Chaos Seed - Fuusui Kairoki d55813072ec36b586cbe25f6c4bd4321.png', 618, 618)
+2025-06-05 07:19:44,826 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:44,826 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:44,826 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:44,832 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:44,832 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:44,832 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:44,832 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Chavez d56dde23d1a69ac6f6963fa6f989bfaf.png
+2025-06-05 07:19:44,880 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Chavez d56dde23d1a69ac6f6963fa6f989bfaf.png', 618, 618)
+2025-06-05 07:19:45,958 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:45,958 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:45,958 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:45,964 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:45,964 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:45,964 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:45,964 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Chavez 2 e6ff5d333986b7aafcb4723c7fb37b61.png
+2025-06-05 07:19:46,021 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Chavez 2 e6ff5d333986b7aafcb4723c7fb37b61.png', 618, 618)
+2025-06-05 07:19:47,191 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:47,191 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:47,191 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:47,196 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:47,197 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:47,197 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:47,197 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Chester Cheetah - Too Cool To Fool 461a63dc41ae7d50f61ceeaec6f0dfa7.png
+2025-06-05 07:19:47,244 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Chester Cheetah - Too Cool To Fool 461a63dc41ae7d50f61ceeaec6f0dfa7.png', 618, 618)
+2025-06-05 07:19:48,647 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:48,647 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:48,647 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:48,653 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:48,653 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:48,653 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:48,653 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Chester Cheetah - Wild Wild Quest 524472f80adfa08c0a894fa7a991f62f.png
+2025-06-05 07:19:48,762 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Chester Cheetah - Wild Wild Quest 524472f80adfa08c0a894fa7a991f62f.png', 618, 618)
+2025-06-05 07:19:49,758 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:49,758 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:49,758 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:49,764 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:49,764 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:49,764 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:49,764 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Choplifter 3 aefcba1f14e7eb4b2b66444c434aa76c.png
+2025-06-05 07:19:49,830 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Choplifter 3 aefcba1f14e7eb4b2b66444c434aa76c.png', 618, 618)
+2025-06-05 07:19:51,061 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:51,061 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:51,061 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:51,066 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:51,066 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:51,066 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:51,066 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Chou Aniki - Bakuretsu Rantou Hen e0a205904cb0b5133ec9f9aec841091a.png
+2025-06-05 07:19:51,120 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Chou Aniki - Bakuretsu Rantou Hen e0a205904cb0b5133ec9f9aec841091a.png', 618, 618)
+2025-06-05 07:19:52,286 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:52,286 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:52,286 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:52,291 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:52,291 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:52,291 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:52,291 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Super Ghoulsn Ghosts b36a845bd26ba553f062e99380c4a270.png
+2025-06-05 07:19:52,364 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Super Ghoulsn Ghosts b36a845bd26ba553f062e99380c4a270.png', 618, 618)
+2025-06-05 07:19:53,312 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:53,312 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:53,312 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:53,317 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:53,317 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:53,317 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:53,317 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Choujikuu Yousai Macross - Scrambled Valkyrie 0e6987bd9e9a073cc8006affb30414dd.png
+2025-06-05 07:19:53,367 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Choujikuu Yousai Macross - Scrambled Valkyrie 0e6987bd9e9a073cc8006affb30414dd.png', 618, 618)
+2025-06-05 07:19:55,662 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:55,662 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:55,662 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:55,667 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:55,667 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:55,668 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:55,668 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Xardion b3806723709517c8cde7a703de7ca7d8.png
+2025-06-05 07:19:55,720 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Xardion b3806723709517c8cde7a703de7ca7d8.png', 618, 618)
+2025-06-05 07:19:57,358 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:57,358 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:57,358 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:57,363 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:57,364 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:57,364 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:57,364 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Chrono Trigger 11053e002aaba0ca34b48df83158dcdf.png
+2025-06-05 07:19:57,454 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Chrono Trigger 11053e002aaba0ca34b48df83158dcdf.png', 618, 618)
+2025-06-05 07:19:59,441 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:19:59,441 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:19:59,441 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:19:59,446 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:19:59,446 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:19:59,447 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:19:59,447 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Chuck Rock 547d5f4dcff118f10e655a57060aa670.png
+2025-06-05 07:19:59,499 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Chuck Rock 547d5f4dcff118f10e655a57060aa670.png', 618, 618)
+2025-06-05 07:20:01,100 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:20:01,100 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:20:01,100 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:20:01,106 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:20:01,106 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:20:01,106 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:20:01,106 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Clay Fighter 0431d8a18a7cda2760cc9692a008ce86.png
+2025-06-05 07:20:01,171 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Clay Fighter 0431d8a18a7cda2760cc9692a008ce86.png', 618, 618)
+2025-06-05 07:20:02,853 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:20:07,126 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:20:07,126 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:20:07,126 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:20:07,132 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:20:07,132 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:20:07,132 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:20:07,132 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Clay Fighter 2 - Judgement Clay 60a00497db499f7b11460503c06ad73e.png
+2025-06-05 07:20:07,220 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Clay Fighter 2 - Judgement Clay 60a00497db499f7b11460503c06ad73e.png', 618, 618)
+2025-06-05 07:20:08,342 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:20:08,342 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:20:08,342 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:20:08,347 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:20:08,347 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:20:08,347 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:20:08,347 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Clay Fighter - Tournament Edition 44a939bcc0b3ec3ee8db9e332b793cc5.png
+2025-06-05 07:20:08,445 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Clay Fighter - Tournament Edition 44a939bcc0b3ec3ee8db9e332b793cc5.png', 618, 618)
+2025-06-05 07:20:10,056 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:20:10,056 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:20:10,056 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:20:10,057 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:20:10,057 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:20:10,057 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:20:10,057 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Clay Fighter 2 - Judgement Clay 60a00497db499f7b11460503c06ad73e.png', 618, 618)
+2025-06-05 07:20:13,954 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:20:13,954 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:20:13,954 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:20:13,954 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:20:13,954 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:20:13,954 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:20:13,954 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Clay Fighter - Tournament Edition 44a939bcc0b3ec3ee8db9e332b793cc5.png', 618, 618)
+2025-06-05 07:20:16,822 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:20:16,822 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:20:16,822 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:20:16,827 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:20:16,827 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:20:16,827 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:20:16,827 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Claymates 1a77fce172a45902dc2c6250557220b6.png
+2025-06-05 07:20:16,902 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Claymates 1a77fce172a45902dc2c6250557220b6.png', 618, 618)
+2025-06-05 07:20:18,371 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:20:18,371 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:20:18,371 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:20:18,371 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:20:18,371 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:20:18,371 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:20:18,371 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Clay Fighter - Tournament Edition 44a939bcc0b3ec3ee8db9e332b793cc5.png', 618, 618)
+2025-06-05 07:20:19,420 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:20:34,480 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:20:34,480 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:20:34,480 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:20:34,480 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:20:34,480 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:20:34,480 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:20:34,480 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Claymates 1a77fce172a45902dc2c6250557220b6.png', 618, 618)
+2025-06-05 07:20:45,173 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:20:45,173 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:20:45,173 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:20:45,178 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:20:45,179 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:20:45,179 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:20:45,179 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Cliffhanger 73bbcd0025d196a492b88b0b2fb9f6a1.png
+2025-06-05 07:20:45,237 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Cliffhanger 73bbcd0025d196a492b88b0b2fb9f6a1.png', 618, 618)
+2025-06-05 07:20:46,040 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:20:46,040 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:20:46,040 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:20:46,040 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:20:46,040 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:20:46,040 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:20:46,040 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Claymates 1a77fce172a45902dc2c6250557220b6.png', 618, 618)
+2025-06-05 07:20:46,913 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:20:46,913 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:20:46,913 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:20:46,913 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:20:46,913 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:20:46,913 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:20:46,913 - DEBUG - main.py:853 - display_game_image: Image trouvée dans le cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Cliffhanger 73bbcd0025d196a492b88b0b2fb9f6a1.png', 618, 618)
+2025-06-05 07:20:47,830 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:20:47,830 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:20:47,830 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:20:47,836 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:20:47,836 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:20:47,836 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:20:47,836 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Clock Tower 3c33ff57e996ce9d56294a4c9cf844ca.png
+2025-06-05 07:20:47,935 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Clock Tower 3c33ff57e996ce9d56294a4c9cf844ca.png', 618, 618)
+2025-06-05 07:20:50,492 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:20:50,492 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:20:50,492 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:20:50,498 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:20:50,498 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:20:50,498 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:20:50,498 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Congos Caper 1250baf56454fc051a179e7657d38314.png
+2025-06-05 07:20:50,576 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Congos Caper 1250baf56454fc051a179e7657d38314.png', 618, 618)
+2025-06-05 07:20:52,353 - DEBUG - PngImagePlugin.py:200 - STREAM b'IHDR' 16 13
+2025-06-05 07:20:52,353 - DEBUG - PngImagePlugin.py:200 - STREAM b'pHYs' 41 9
+2025-06-05 07:20:52,353 - DEBUG - PngImagePlugin.py:200 - STREAM b'IDAT' 62 8192
+2025-06-05 07:20:52,358 - DEBUG - main.py:798 - display_game_image: Initial label dimensions: 618x706
+2025-06-05 07:20:52,358 - DEBUG - main.py:819 - display_game_image: Original image size: 745x745
+2025-06-05 07:20:52,359 - DEBUG - main.py:820 - display_game_image: Final target preview area for calculation: 618x706
+2025-06-05 07:20:52,359 - DEBUG - main.py:855 - display_game_image: Resizing image to: 618x618 for Z:\recalbox\roms\snes\media\images\Contra 3 - The Alien Wars a8eb3bd3486dbe50e0631754be0c97d7.png
+2025-06-05 07:20:52,415 - DEBUG - main.py:859 - display_game_image: Image ajoutée au cache: ('Z:\\recalbox\\roms\\snes\\media\\images\\Contra 3 - The Alien Wars a8eb3bd3486dbe50e0631754be0c97d7.png', 618, 618)
+2025-06-05 07:20:56,565 - DEBUG - main.py:1025 - on_tab_changed: Onglet Vidéo sélectionné.
+2025-06-05 07:20:59,532 - DEBUG - main.py:230 - on_mute_button_raw_click: Raw <Button-1> event detected on mute button.
+2025-06-05 07:20:59,684 - DEBUG - main.py:898 - toggle_video_mute: Mute button clicked.
+2025-06-05 07:20:59,684 - DEBUG - main.py:904 - toggle_video_mute: Player state: State.Playing
+2025-06-05 07:20:59,684 - DEBUG - main.py:912 - toggle_video_mute: Current VLC mute status (audio_get_mute): 0, self.video_muted (internal state): False
+2025-06-05 07:20:59,684 - DEBUG - main.py:921 - toggle_video_mute: Attempting to mute.
+2025-06-05 07:20:59,701 - INFO - main.py:925 - toggle_video_mute: Video muted. Button icon updated.
+2025-06-05 07:20:59,702 - DEBUG - main.py:929 - toggle_video_mute: New VLC mute status (audio_get_mute): 1, self.video_muted now: True
+2025-06-05 07:21:18,332 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:22:39,323 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:23:23,090 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:27:55,527 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:28:33,278 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:29:11,054 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:29:39,038 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:29:56,989 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:30:36,532 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:32:16,307 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:34:48,841 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:35:39,289 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:37:20,055 - DEBUG - main.py:358 - Touche Suppr pressée.
+2025-06-05 07:38:59,968 - INFO - main.py:1160 - WM_DELETE_WINDOW : Exécution de on_closing.
+2025-06-05 07:38:59,968 - INFO - main.py:1163 - Arrêt du lecteur VLC.
+2025-06-05 07:39:00,021 - INFO - main.py:1170 - Libération de l'instance VLC.
+2025-06-05 07:39:00,021 - INFO - main.py:1176 - Appel de self.destroy() pour fermer la fenêtre principale.
+2025-06-05 07:39:00,103 - INFO - main.py:1180 - on_closing terminé.
