@@ -1,0 +1,18 @@
+
+        <gameList>
+            <game>
+                <path>./Super Mario World.sfc</path>
+                <name>Super Mario World</name>
+                <image>./media/images/Super Mario World.png</image>
+            </game>
+            <game>
+                <path>./Zelda A Link to the Past.sfc</path>
+                <name>Zelda - A Link to the Past</name>
+                <image></image> 
+            </game>
+            <game>
+                <path>./Street Fighter II.sfc</path>
+                <name>Street Fighter II</name>
+            </game>
+        </gameList>
+        

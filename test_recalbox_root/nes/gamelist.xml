@@ -1,0 +1,14 @@
+
+        <gameList>
+            <game>
+                <path>./Contra.nes</path>
+                <name>Contra</name>
+                <image>./images/Contra.jpg</image>
+            </game>
+            <game>
+                <path>./Mega Man 2.nes</path>
+                <name>Mega Man 2</name>
+                <image>  </image> 
+            </game>
+        </gameList>
+        
